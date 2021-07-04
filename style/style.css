@@ -1,3 +1,114 @@
 body{
-    background-color: aqua;
+    height: 1000vh;
+}
+
+.flaxible_area{
+    display: flex;
+    background-image: url('top-banner.png');
+    background-repeat: no-repeat;
+    position: relative;
+    margin: -8px -8px;
+   
+}
+
+
+.flaxible_area h1{
+    font-family: Varela Round;
+    font-size: 40px
+}
+.flaxible_area h3{
+    font-size: 35px;
+}
+
+.flaxible_area p{
+font-size: 20px;
+color: gray;
+font-family: 'Varela Round';
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-family: 'Varela Round';
+    border-radius: 5px;
+}
+
+.flaxible_item{
+    width: 52%;
+    padding-left: 100px;
+}
+.flaxible_item img{
+    width: 100%;
+    position: relative;
+}
+
+
+.img-cont{
+width:700px;
+position: relative;
+}
+
+
+
+.orange{
+color: orange;
+}
+
+.revars{
+    background-image: url('dream-bg.png');
+    background-position: right;
+}
+
+
+.btn_tow{
+    font-size: 12px;
+}
+
+.non_flexible {
+    position: absolute;
+    margin: 20px -8px;
+   
+   
+}
+
+.non_flexible h1{
+    font-family: Varela Round;
+    font-size: 40px;
+    color: black;
+}
+.non_flexible h3{
+    color: orange;
+}
+
+.change{
+    background-image: url('exp-bg.png');
+}   
+   
+   
+.change div{
+    width: 600px;
+    margin-left: 70px;
+    box-shadow: 2px 5px 5px black;
+    padding-left: 79px;
+    padding-top: 17px;
+}
+
+.orange{
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato); 
+    border-image-slice: 1;
+}
+
+
+.blue{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue, cyan); 
+    border-image-slice: 1;
 }
